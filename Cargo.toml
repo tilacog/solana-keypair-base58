@@ -1,0 +1,9 @@
+[package]
+name = "solana-keypair-base58"
+version = "0.1.0"
+edition = "2024"
+description = "Convert a Solana keypair.json file to a base58 private key string"
+
+[dependencies]
+bs58 = "0.5"
+serde_json = "1"
